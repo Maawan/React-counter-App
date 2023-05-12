@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Nosifer&family=Ubuntu:ital,wght@1,500&display=swap');
+.counter{
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(236, 217, 188);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out;
+}
+.counter:hover{
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body{
+    text-align: center;
+    font-family: Montserrat;
+    
+}
+.count{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: 'Nosifer';
+    padding: 0px;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: white;
+    background-color: #F9A825;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out;
+}
+button:hover{
+    background-color: #ff9d00;
+}
+#reset{
+    margin-bottom: 50px;
+}
+#container{
+    display: flex;
+    justify-content:space-around;
+}
+button:active{
+    background-color: antiquewhite;
+    color: #F9A825;
+}
