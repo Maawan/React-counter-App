@@ -1,12 +1,12 @@
-import React from "react"
-import Card from "./Card"
-
+import React , {useContext, useState} from "react"
+import ThemeContext from "../Context/ThemeContext";
+import App2 from "./App2";
 function App(){
+    const themeHook = useState("dark");
     return (
-        <div id="container">
-            <Card teamName={"Team A"} count={0} />
-            <Card teamName={"Team B"} count={0}/>
-        </div>
+        <ThemeContext.Provider value = {themeHook}>
+            <App2 />
+        </ThemeContext.Provider>
     );
 }
 export default App;

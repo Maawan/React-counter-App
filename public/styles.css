@@ -2,7 +2,7 @@
 .counter{
     width: 400px;
     border-radius: 10px;
-    background-color: rgb(236, 217, 188);
+    background-color: #ECD9BC;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s ease-out;
 }
